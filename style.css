@@ -1,7 +1,6 @@
 * {
     text-align: center;
     box-sizing:border-box;
-    align:center;
     margin: auto;
 }
 
@@ -15,16 +14,17 @@ body {
 
 header, nav, section, aside, footer {
     background-color:#ebebeb;
-    width:495px;
+
 }
 
 section {
-    width: 66%;
+    width: 495px;
     float: left;
+    /*margin: 20px 10px 20px 10px; */
+
 }
 
 aside {
-    width: 33%;
     float: right;
 }
 
@@ -33,7 +33,7 @@ article {
     background-color:#777;
 }
 
-h1, p {
+.artbox {
     color:#777;
     background-color:#ebebeb;
 }
