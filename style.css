@@ -14,18 +14,19 @@ body {
 
 header, nav, section, aside, footer {
     background-color:#ebebeb;
-
+    /*needs margin-top, margin-bottom */
 }
 
 section {
     width: 495px;
     float: left;
-    /*margin: 20px 10px 20px 10px; */
+    /*needs margin-right*/
 
 }
 
 aside {
     float: right;
+    /*needs margin-top, margin-bottom, and margin-left */
 }
 
 article {
